@@ -6,12 +6,17 @@ import Contact from "@/componentes/Contact";
 export default function Home() {
   return (
     <>
-    <main className="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-slate-100">
-      <Hero />
-      <Services />
-      <About />
-      <Contact />
-    </main> 
+      <main className="bg-[#3B2418] text-[#F3E9D5]">
+
+        <Hero />
+
+        <Services />
+
+        <About />
+
+        <Contact />
+
+      </main>
     </>
   );
 }

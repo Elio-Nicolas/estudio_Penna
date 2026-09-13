@@ -1,39 +1,55 @@
-import { playfair,cormorant,baskerville } from "@/lib/fonts";
+import { playfair, cormorant, baskerville } from "@/lib/fonts";
 
 export default function Contact() {
   return (
     <section
       id="contacto"
-      className="py-28 px-6 bg-slate-900 relative overflow-hidden"
+      className="py-28 px-6 bg-[#3B2418] relative overflow-hidden"
     >
-      <div className="absolute w-[500px] h-[500px] bg-amber-500/10 blur-[120px] rounded-full bottom-[-200px] right-[-200px]" />
+
+      <div className="absolute w-[500px] h-[500px] bg-[#E8D8BE] opacity-10 blur-[120px] rounded-full bottom-[-200px] right-[-200px]" />
 
       <div className="relative max-w-4xl mx-auto text-center">
-        <h2 className={`mt-8 text-4xl md:text-5xl font-semibold text-[#E8ECF0] leading-tight text-center ${playfair.className}`}>
+
+        <h2
+          className={`mt-8 text-4xl md:text-5xl font-semibold text-[#F3E9D5] leading-tight text-center ${playfair.className}`}
+        >
           Contacto
         </h2>
 
-        <p className={`mt-8 text-[#E8ECF0] text-lg leading-relaxed ${playfair.className}`}>
+        <p
+          className={`mt-8 text-[#E8D8BE] text-lg leading-relaxed ${playfair.className}`}
+        >
           Coordina tu consulta, y recibí asesoramiento legal eficiente.
         </p>
 
         <div className="mt-10 space-y-2 text-lg">
-          <p className={`text-[#C6A75E] text-lg leading-relaxed ${playfair.className}`}>
-           abg.valentinare@gmail.com.ar
+
+          <p
+            className={`text-[#E8D8BE] text-lg leading-relaxed ${playfair.className}`}
+          >
+            Penna@gmail.com.ar
           </p>
-          <p className={`text-[#E8ECF0] text-lg leading-relaxed ${playfair.className}`}>
-           Villa Mercedes, San Luis
+
+          <p
+            className={`text-[#E8D8BE] text-lg leading-relaxed ${playfair.className}`}
+          >
+            San Luis, Capital
           </p>
+
         </div>
 
         <a
-          href="https://wa.me/5492657315396"
+          href="https://wa.me/5492664831081"
           target="_blank"
-          className="inline-block mt-12 bg-amber-400 text-slate-900 px-10 py-4 rounded-lg font-semibold shadow-lg shadow-amber-500/20 hover:scale-105 transition"
+          rel="noopener noreferrer"
+          className="inline-block mt-12 bg-[#F3E9D5] text-[#3B2418] px-10 py-4 rounded-lg font-semibold shadow-lg hover:scale-105 transition"
         >
           Escribir por WhatsApp
         </a>
+
       </div>
+
     </section>
   );
 }

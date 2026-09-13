@@ -1,6 +1,8 @@
 "use client";
+
 import { useState } from "react";
-import { playfair, } from "@/lib/fonts";
+import { playfair } from "@/lib/fonts";
+
 interface Service {
   title: string;
   items: string[];
@@ -59,44 +61,54 @@ export default function Services() {
   };
 
   return (
-    <section className="py-28 px-6">
+    <section className="py-28 px-6 bg-[#3B2418]">
       <div className="max-w-6xl mx-auto">
-       <h2 className={`mt-8 text-3xl md:text-4xl font-semibold text-[#E8ECF0] leading-tight text-center ${playfair.className}`}>
+
+        <h2
+          className={`mt-8 text-3xl md:text-4xl font-semibold text-[#F3E9D5] leading-tight text-center ${playfair.className}`}
+        >
           Áreas de práctica
         </h2>
 
         <div className="mt-16 grid md:grid-cols-2 gap-8 relative">
+
           {services.map((service, index: number) => (
             <div key={service.title} className="relative">
+
               <div
-  onClick={() => toggleCard(index)}
-  className="cursor-pointer p-8 rounded-2xl bg-slate-800/60 backdrop-blur border border-slate-700 hover:border-amber-400/50 transition shadow-xl flex justify-between items-center"
->
-  <p className="text-xl font-medium tracking-wide">
-    {service.title}
-  </p>
+                onClick={() => toggleCard(index)}
+                className="cursor-pointer p-8 rounded-2xl bg-[#5A3826] border border-[#E8D8BE] hover:opacity-90 transition shadow-xl flex justify-between items-center"
+              >
 
-  <span
-    className={`text-2xl font-light text-white transition-transform duration-300 ${
-      active === index ? "rotate-45" : ""
-    }`}
-  >
-    +
-  </span>
-</div>
+                <p className="text-xl font-medium tracking-wide text-[#F3E9D5]">
+                  {service.title}
+                </p>
 
+                <span
+                  className={`text-2xl font-light text-[#E8D8BE] transition-transform duration-300 ${
+                    active === index ? "rotate-45" : ""
+                  }`}
+                >
+                  +
+                </span>
+
+              </div>
 
               {active === index && (
-                <div className="absolute left-0 top-full mt-4 w-full z-50 bg-slate-900 border border-slate-700 rounded-2xl shadow-2xl p-6">
-                  <ul className="space-y-3 text-slate-300">
+                <div className="absolute left-0 top-full mt-4 w-full z-50 bg-[#4A2D20] border border-[#E8D8BE] rounded-2xl shadow-2xl p-6">
+
+                  <ul className="space-y-3 text-[#E8D8BE]">
                     {service.items.map((item: string) => (
                       <li key={item}>{item}</li>
                     ))}
                   </ul>
+
                 </div>
               )}
+
             </div>
           ))}
+
         </div>
       </div>
     </section>
