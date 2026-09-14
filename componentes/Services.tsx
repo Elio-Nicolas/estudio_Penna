@@ -44,11 +44,12 @@ const services: Service[] = [
     ],
   },
   {
-    title: "PERSONAS JURÍDICAS",
+    title: "DERECHO LABORAL",
     items: [
-      "Inscripción y Registro de Asociaciones y Fundaciones",
-      "Gestión y Coordinación Interinstitucional",
-      "Asesoría Legal Integral",
+      "Despidos",
+      "Trabajo no Registrado",
+      "Accidentes Laborales",
+      "Indemnizaciones",
     ],
   },
 ];

@@ -1,59 +1,86 @@
+import Image from "next/image";
+
+import LogoIcon from "@/componentes/LogoIcon"; // ajustá la ruta según tu proyecto
 import { playfair, cormorant, baskerville } from "@/lib/fonts";
+
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-6 bg-[#F3E9D5]">
+    <section className="relative min-h-screen flex items-center justify-center px-6 bg-[#F3E9D5] overflow-hidden">
 
-      <div className="relative max-w-3xl text-center">
+      <div className="relative z-10 max-w-4xl w-full mx-auto text-center py-16">
 
-        {/* Monograma */}
+    {/* Logo*/}
         <div className="flex justify-center">
-          <div className="w-40 h-40 md:w-44 md:h-44 rounded-full bg-[#3B2418] border-[5px] border-[#CDBB9F] flex items-center justify-center shadow-lg">
-            <span
-              className={`text-8xl md:text-9xl text-[#F3E9D5] leading-none ${cormorant.className}`}
-            >
-              P
-            </span>
-          </div>
+          <Image
+            src="/logo-penna-P.jpg"
+            alt="Estudio Penna"
+            width={200}
+            height={200}
+            className="object-contain"
+            priority
+          />
         </div>
 
         {/* Nombre */}
         <h1
-          className={`mt-8 text-5xl md:text-6xl font-bold text-[#3B2418] leading-tight ${playfair.className}`}
+          className={`mt-8 text-4xl md:text-5xl font-medium tracking-[0.25em] text-[#3B2418] ${playfair.className}`}
         >
-          Penna & Asoc.
+          PENNA & ASOC
         </h1>
 
-        {/* Profesión */}
-        <span className="block mt-4 uppercase tracking-[0.55em] text-base font-semibold text-[#5A3826]">
-          Estudio de Abogacía
-        </span>
-
-        {/* Frase principal */}
+        {/* Tipo de estudio */}
         <h2
-          className={`mt-8 text-4xl md:text-5xl font-semibold text-[#3B2418] leading-tight ${playfair.className}`}
+          className={`mt-7 text-lg md:text-xl uppercase tracking-[0.3em] text-[#5A3826] leading-relaxed ${playfair.className}`}
         >
-          Estrategia legal, resultados reales
+          Estudio Jurídico y
+          <br />
+          Previsional
         </h2>
 
-        {/* Subtexto */}
+        {/* Línea */}
+        <div className="flex justify-center mt-7">
+          <div className="w-20 h-px bg-[#8B7355]" />
+        </div>
+
+        {/* Áreas */}
         <p
-          className={`mt-8 text-[#5A3826] text-lg leading-relaxed italic ${playfair.className}`}
+          className={`mt-7 text-base md:text-lg tracking-[0.12em] text-[#5A3826] ${baskerville.className}`}
         >
-          Compromiso, experiencia y resultados en la defensa de tus derechos
+          Laboral&nbsp;&nbsp;-&nbsp;&nbsp;Civil&nbsp;&nbsp;-&nbsp;&nbsp;Familia&nbsp;&nbsp;-&nbsp;&nbsp;Previsional
+        </p>
+
+        {/* Frase principal */}
+        <h3
+          className={`mt-14 text-4xl md:text-5xl font-semibold italic leading-tight text-[#3B2418] ${playfair.className}`}
+        >
+          Tu tranquilidad legal,
+          <br />
+          nuestra prioridad
+        </h3>
+
+        {/* Descripción */}
+        <p
+          className={`mt-7 max-w-2xl mx-auto text-base md:text-lg leading-relaxed text-[#5A3826] ${baskerville.className}`}
+        >
+          Asesoramiento jurídico confiable, cercano
+          <br className="hidden md:block" />
+          y con compromiso en cada etapa de tu vida.
         </p>
 
         {/* Botón */}
-        <div className="mt-6">
+        <div className="mt-10">
           <a
             href="#contacto"
-            className="bg-[#3B2418] text-[#F3E9D5] px-8 py-4 rounded-lg font-semibold hover:opacity-90 transition"
+            className="inline-flex items-center gap-3 px-9 py-4 bg-[#3B2418] text-[#F3E9D5] rounded-lg uppercase tracking-[0.15em] text-sm font-semibold hover:bg-[#5A3826] transition duration-300 shadow-md"
           >
             Solicitar consulta
+            <span className="text-lg">&rarr;</span>
           </a>
         </div>
 
       </div>
+
     </section>
   );
 }
