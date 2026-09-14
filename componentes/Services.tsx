@@ -24,12 +24,12 @@ const services: Service[] = [
     ],
   },
   {
-    title: "DERECHO LABORAL",
+    title: "DERECHO PREVISIONAL",
     items: [
-      "Despidos",
-      "Trabajo no Registrado",
-      "Accidentes Laborales",
-      "Indemnizaciones",
+      "Jubilaciones y Pensiones",
+      "Pensión por invalidez",
+      "Reajustes jubilatorios",
+      "Moratorias previsionales",
     ],
   },
   {
