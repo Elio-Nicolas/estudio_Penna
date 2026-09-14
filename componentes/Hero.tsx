@@ -50,14 +50,14 @@ export default function Hero() {
           Laboral&nbsp;&nbsp;-&nbsp;&nbsp;Civil&nbsp;&nbsp;-&nbsp;&nbsp;Familia&nbsp;&nbsp;-&nbsp;&nbsp;Previsional
         </p>
 
-        {/* Frase principal */}
+        {/* Frase principal 
         <h3
           className={`mt-14 text-4xl md:text-5xl font-semibold italic leading-tight text-[#3B2418] ${playfair.className}`}
         >
           Tu tranquilidad legal,
           <br />
           nuestra prioridad
-        </h3>
+        </h3>*/}
 
         {/* Descripción */}
         <p
