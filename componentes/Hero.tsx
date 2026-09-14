@@ -21,12 +21,12 @@ export default function Hero() {
         <h1
           className={`mt-8 text-5xl md:text-6xl font-bold text-[#3B2418] leading-tight ${playfair.className}`}
         >
-          Penna
+          Penna & Asoc.
         </h1>
 
         {/* Profesión */}
         <span className="block mt-4 uppercase tracking-[0.55em] text-base font-semibold text-[#5A3826]">
-          Abogados
+          Estudio de Abogacía
         </span>
 
         {/* Frase principal */}
