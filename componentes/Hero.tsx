@@ -65,7 +65,7 @@ export default function Hero() {
         >
           Asesoramiento jurídico confiable, cercano
           <br className="hidden md:block" />
-          y con compromiso en cada etapa de tu vida.
+           y con compromiso en cada etapa de tu vida.
         </p>
 
         {/* Botón */}
