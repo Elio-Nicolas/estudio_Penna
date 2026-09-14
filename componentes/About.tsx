@@ -29,12 +29,11 @@ export default function About() {
         <p
           className={`mt-8 text-[#5A3826] text-lg leading-relaxed ${playfair.className}`}
         >
-          Servicios jurídicos integrales orientados a la prevención
-          y resolución eficaz de conflictos. Cada caso es abordado
-          con análisis riguroso, planificación estratégica y defensa
-          activa de derechos e intereses, garantizando compromiso
-          profesional, confidencialidad y trato directo en cada etapa
-          del proceso.
+          Combinamos experiencia y análisis estratégico 
+          para proteger tus derechos en cada instancia. 
+          Desde la consulta inicial hasta la resolución del caso, 
+          ofrecemos seguimiento personalizado, 
+          confidencialidad y defensa activa de tus intereses.
         </p>
 
       </div>
