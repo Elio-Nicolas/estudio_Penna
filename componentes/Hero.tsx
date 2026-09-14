@@ -10,7 +10,7 @@ export default function Hero() {
         {/* Logo */}
         <div className="flex justify-center">
           <Image
-            src="/logo-penna-P.png"
+            src="/logo-penna_v1.png"
             alt="Penna"
             width={200}
             height={200}
