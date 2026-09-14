@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import LogoIcon from "@/componentes/LogoIcon"; // ajustá la ruta según tu proyecto
+import LogoIcon from "@/componentes/LogoIcon";
 import { playfair, cormorant, baskerville } from "@/lib/fonts";
 
 
