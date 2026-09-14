@@ -44,7 +44,7 @@ export default function Hero() {
         </p>
 
         {/* Botón */}
-        <div className="mt-12">
+        <div className="mt-6">
           <a
             href="#contacto"
             className="bg-[#3B2418] text-[#F3E9D5] px-8 py-4 rounded-lg font-semibold hover:opacity-90 transition"
