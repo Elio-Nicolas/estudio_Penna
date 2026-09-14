@@ -10,7 +10,7 @@ export default function About() {
         {/* Imagen */}
         <div className="flex justify-center">
           <Image
-            src="/imagen_penna.jpeg"
+            src="/imagen-penna.png"
             alt="Penna"
             width={220}
             height={220}
