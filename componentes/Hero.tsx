@@ -33,14 +33,14 @@ export default function Hero() {
         <h2
           className={`mt-8 text-4xl md:text-5xl font-semibold text-[#3B2418] leading-tight ${playfair.className}`}
         >
-          Estrategia legal para decisiones importantes
+          Estrategia legal, resultados reales
         </h2>
 
         {/* Subtexto */}
         <p
           className={`mt-8 text-[#5A3826] text-lg leading-relaxed italic ${playfair.className}`}
         >
-          Claridad, compromiso y solidez en la defensa de tus derechos
+          Compromiso, experiencia y resultados en la defensa de tus derechos
         </p>
 
         {/* Botón */}
