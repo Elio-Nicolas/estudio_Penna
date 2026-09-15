@@ -59,13 +59,13 @@ export default function Hero() {
           nuestra prioridad
         </h3>*/}
 
-        {/* Descripción */}
+         {/* Descripción */}
         <p
           className={`mt-7 max-w-2xl mx-auto text-base md:text-lg leading-relaxed text-[#5A3826] ${baskerville.className}`}
         >
           Asesoramiento jurídico confiable, cercano
           <br className="hidden md:block" />
-           y con compromiso en cada etapa de tu vida.
+          y&nbsp;con compromiso en cada etapa de tu vida.
         </p>
 
         {/* Botón */}
