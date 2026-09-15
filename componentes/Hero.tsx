@@ -6,7 +6,7 @@ import { playfair, cormorant, baskerville } from "@/lib/fonts";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-6 bg-[#F3E9D5] overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center px-4 bg-[#F3E9D5] overflow-hidden">
 
       <div className="relative z-10 max-w-4xl w-full mx-auto text-center py-16">
 
