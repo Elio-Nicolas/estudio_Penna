@@ -13,11 +13,11 @@ export default function Hero() {
     {/* Logo*/}
         <div className="flex justify-center">
           <Image
-            src="/logo-penna-P.jpg"
+            src="/logo-penna_2.png"
             alt="Estudio Penna"
             width={200}
             height={200}
-            className="object-contain"
+            className="w-48 h-auto md:w-56"
             priority
           />
         </div>
