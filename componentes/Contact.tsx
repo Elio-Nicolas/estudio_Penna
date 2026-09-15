@@ -25,11 +25,13 @@ export default function Contact() {
 
         <div className="mt-10 space-y-2 text-lg">
 
-          <p
-            className={`text-[#E8D8BE] text-lg leading-relaxed ${playfair.className}`}
+          {/* EMAIL */}
+          <a
+            href="mailto:estudiojuridicopenna@gmail.com"
+            className={`text-[#E8D8BE] text-lg leading-relaxed ${playfair.className} hover:underline transition`}
           >
             estudiojuridicopenna@gmail.com
-          </p>
+          </a>
 
           <p
             className={`text-[#E8D8BE] text-lg leading-relaxed ${playfair.className}`}
