@@ -1,4 +1,8 @@
-import { Playfair_Display, Cormorant_Garamond, Libre_Baskerville } from "next/font/google";
+import {
+  Playfair_Display,
+  Cormorant_Garamond,
+  Libre_Baskerville,
+} from "next/font/google";
 
 export const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -13,4 +17,5 @@ export const cormorant = Cormorant_Garamond({
 export const baskerville = Libre_Baskerville({
   subsets: ["latin"],
   weight: ["400", "700"],
+  style: ["normal", "italic"],
 });

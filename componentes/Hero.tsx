@@ -22,12 +22,16 @@ export default function Hero() {
           />
         </div>
 
-        {/* Nombre */}
-        <h1
-          className={`mt-8 text-4xl md:text-5xl font-medium tracking-[0.25em] text-[#3B2418] ${playfair.className}`}
-        >
-          PENNA & PENNA
-        </h1>
+
+<h1
+  className={`mt-8 text-5xl md:text-6xl font-bold italic text-[#3B2418] ${baskerville.className}`}
+  style={{
+    WebkitTextStroke: "0.2px currentColor",
+  }}
+>
+  Penna & Penna
+</h1>
+
 
         {/* Tipo de estudio */}
         <h2
