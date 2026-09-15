@@ -33,6 +33,14 @@ export default function Contact() {
             estudiojuridicopenna@gmail.com
           </a>
 
+          {/* TELÉFONO FIJO */}
+          <a
+            href="tel:+542664430841"
+            className={`block text-[#E8D8BE] text-lg leading-relaxed ${playfair.className} hover:underline transition`}
+          >
+            (0266) 443-0841
+          </a>
+
           <p
             className={`text-[#E8D8BE] text-lg leading-relaxed ${playfair.className}`}
           >
