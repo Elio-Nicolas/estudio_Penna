@@ -26,7 +26,7 @@ export default function Hero() {
         <h1
           className={`mt-8 text-4xl md:text-5xl font-medium tracking-[0.25em] text-[#3B2418] ${playfair.className}`}
         >
-          PENNA & ASOC.
+          PENNA & PENNA
         </h1>
 
         {/* Tipo de estudio */}
