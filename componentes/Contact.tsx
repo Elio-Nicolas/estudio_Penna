@@ -11,64 +11,92 @@ export default function Contact() {
 
       <div className="relative max-w-4xl mx-auto text-center">
 
+        {/* TÍTULO */}
         <h2
-          className={`mt-8 text-4xl md:text-5xl font-semibold text-[#F3E9D5] leading-tight text-center ${playfair.className}`}
+          className={`text-4xl md:text-5xl font-semibold text-[#F3E9D5] leading-tight ${playfair.className}`}
         >
           Contacto
         </h2>
 
+        {/* INTRODUCCIÓN */}
         <p
-          className={`mt-8 text-[#E8D8BE] text-lg leading-relaxed ${playfair.className}`}
+          className={`mt-6 max-w-2xl mx-auto text-[#E8D8BE] text-lg leading-relaxed ${baskerville.className}`}
         >
-          Coordina tu consulta, y recibí asesoramiento legal eficiente.
+          Coordiná tu consulta y recibí asesoramiento legal
+          <br className="hidden md:block" />
+          cercano, claro y profesional.
         </p>
 
-        <div className="mt-10 space-y-2 text-lg">
-
-          {/* EMAIL */}
+        {/* WHATSAPP - ACCIÓN PRINCIPAL */}
+        <div className="mt-10">
           <a
-            href="mailto:estudiojuridicopenna@gmail.com"
-            className={`text-[#E8D8BE] text-lg leading-relaxed ${playfair.className} hover:underline transition`}
+            href="https://wa.me/5492664831081"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center px-10 py-4 bg-[#F3E9D5] text-[#3B2418] rounded-lg font-semibold shadow-lg hover:scale-105 transition duration-300"
           >
-            estudiojuridicopenna@gmail.com
+            Escribir por WhatsApp
           </a>
+        </div>
 
-          {/* TELÉFONO FIJO */}
-          <a
-            href="tel:+542664430841"
-            className={`block text-[#E8D8BE] text-lg leading-relaxed ${playfair.className} hover:underline transition`}
-          >
-            (0266) 443-0841
-          </a>
-
-           <p
-              className={`text-[#F3E9D5] text-lg font-semibold ${playfair.className}`}
-            >
-              Visitá nuestro estudio
-            </p>
-
-            <p
-              className={`mt-1 text-[#E8D8BE] text-lg leading-relaxed ${playfair.className}`}
-            >
-              General Paz 655 - dpto 5
-            </p>
+        {/* OTROS MEDIOS DE CONTACTO */}
+        <div className="mt-12">
 
           <p
-            className={`text-[#E8D8BE] text-lg leading-relaxed ${playfair.className}`}
+            className={`text-sm uppercase tracking-[0.2em] text-[#E8D8BE] ${playfair.className}`}
+          >
+            También podés contactarnos
+          </p>
+
+          <div className="mt-5 space-y-3">
+
+            {/* EMAIL */}
+            <a
+              href="mailto:estudiojuridicopenna@gmail.com"
+              className={`block text-[#F3E9D5] text-lg leading-relaxed hover:underline transition ${baskerville.className}`}
+            >
+              estudiojuridicopenna@gmail.com
+            </a>
+
+            {/* TELÉFONO FIJO */}
+            <a
+              href="tel:+542664430841"
+              className={`block text-[#E8D8BE] text-lg leading-relaxed hover:underline transition ${baskerville.className}`}
+            >
+              (0266) 443-0841
+            </a>
+
+          </div>
+
+        </div>
+
+        {/* SEPARADOR */}
+        <div className="flex justify-center mt-12">
+          <div className="w-16 h-px bg-[#8B7355]" />
+        </div>
+
+        {/* UBICACIÓN */}
+        <div className="mt-10">
+
+          <p
+            className={`text-xl font-semibold text-[#F3E9D5] ${playfair.className}`}
+          >
+            Visitá nuestro estudio
+          </p>
+
+          <p
+            className={`mt-3 text-[#E8D8BE] text-lg leading-relaxed ${baskerville.className}`}
+          >
+            General Paz 655 - Dpto. 5
+          </p>
+
+          <p
+            className={`text-[#E8D8BE] text-lg leading-relaxed ${baskerville.className}`}
           >
             San Luis, Capital
           </p>
 
         </div>
-
-        <a
-          href="https://wa.me/5492664831081"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block mt-12 bg-[#F3E9D5] text-[#3B2418] px-10 py-4 rounded-lg font-semibold shadow-lg hover:scale-105 transition"
-        >
-          Escribir por WhatsApp
-        </a>
 
       </div>
 
