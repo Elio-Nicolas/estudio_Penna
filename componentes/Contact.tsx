@@ -28,7 +28,7 @@ export default function Contact() {
           <p
             className={`text-[#E8D8BE] text-lg leading-relaxed ${playfair.className}`}
           >
-            Penna@gmail.com.ar
+            estudiojuridicopenna@gmail.com
           </p>
 
           <p
