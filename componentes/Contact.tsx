@@ -50,7 +50,7 @@ export default function Contact() {
             <p
               className={`mt-1 text-[#E8D8BE] text-lg leading-relaxed ${playfair.className}`}
             >
-              [DIRECCIÓN]
+              General Paz 655 - dpto 5
             </p>
 
           <p
