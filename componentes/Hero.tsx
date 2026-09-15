@@ -64,8 +64,8 @@ export default function Hero() {
           className={`mt-7 max-w-2xl mx-auto text-base md:text-lg leading-relaxed text-[#5A3826] ${baskerville.className}`}
         >
           Asesoramiento jurídico confiable, cercano
-          <br className="hidden md:block" />
-          y&nbsp;con compromiso en cada etapa de tu vida.
+          <br className="hidden md:block" /> y
+          &nbsp;con compromiso en cada etapa de tu vida.
         </p>
 
         {/* Botón */}
