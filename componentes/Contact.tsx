@@ -41,6 +41,18 @@ export default function Contact() {
             (0266) 443-0841
           </a>
 
+           <p
+              className={`text-[#F3E9D5] text-lg font-semibold ${playfair.className}`}
+            >
+              Visitá nuestro estudio
+            </p>
+
+            <p
+              className={`mt-1 text-[#E8D8BE] text-lg leading-relaxed ${playfair.className}`}
+            >
+              [DIRECCIÓN]
+            </p>
+
           <p
             className={`text-[#E8D8BE] text-lg leading-relaxed ${playfair.className}`}
           >
