@@ -78,23 +78,38 @@ export default function Contact() {
         {/* UBICACIÓN */}
         <div className="mt-10">
 
-          <p
-            className={`text-xl font-semibold text-[#F3E9D5] ${playfair.className}`}
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=General+Paz+655,+San+Luis,+Argentina"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-block"
           >
-            Visitá nuestro estudio
-          </p>
 
-          <p
-            className={`mt-3 text-[#E8D8BE] text-lg leading-relaxed ${baskerville.className}`}
-          >
-            General Paz 655 - Dpto. 5
-          </p>
+            <p
+              className={`text-xl font-semibold text-[#F3E9D5] group-hover:underline transition ${playfair.className}`}
+            >
+              Visitá nuestro estudio
+            </p>
 
-          <p
-            className={`text-[#E8D8BE] text-lg leading-relaxed ${baskerville.className}`}
-          >
-            San Luis, Capital
-          </p>
+            <p
+              className={`mt-3 text-[#E8D8BE] text-lg leading-relaxed group-hover:text-[#F3E9D5] transition ${baskerville.className}`}
+            >
+              General Paz 655 - Dpto. 5
+            </p>
+
+            <p
+              className={`text-[#E8D8BE] text-lg leading-relaxed group-hover:text-[#F3E9D5] transition ${baskerville.className}`}
+            >
+              San Luis, Capital
+            </p>
+
+            <p
+              className={`mt-3 text-sm text-[#CDBB9F] uppercase tracking-[0.15em] ${playfair.className}`}
+            >
+              Ver ubicación en Google Maps →
+            </p>
+
+          </a>
 
         </div>
 
