@@ -79,7 +79,7 @@ export default function Hero() {
             className="inline-flex items-center gap-3 px-9 py-4 bg-[#3B2418] text-[#F3E9D5] rounded-lg uppercase tracking-[0.15em] text-sm font-semibold hover:bg-[#5A3826] transition duration-300 shadow-md"
           >
             Solicitar consulta
-            <span className="text-lg">&rarr;</span>
+            <span className="text-lg"></span>
           </a>
         </div>
 
